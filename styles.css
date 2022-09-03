@@ -8,12 +8,46 @@
   color: white;
   text-align: center;
 }
+.twitter {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.twitter:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  color: #0b95f1;
+}
+.btn-success {
+  display: block;
+  width: 150px;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  text-transform: uppercase;
+  margin: auto;
+  color: #f7c00e;
+  background: #0077b6;
+  border: 1px solid #f39405;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0077b6;
+}
+.btn-success:active {
+  transition: 1s;
+  border: none;
+  text-transform: uppercase;
+  background: #ffd60a;
+  color: #0077b6;
+  border: 1px solid #0077b6;
+  cursor: pointer;
+}
+
 h1 {
+  margin-top: 200px;
   font-family: "Rock Salt", cursive;
 }
-p {
-  margin: 25px;
-}
+
 .github_button_icon {
   margin-top: 10px;
   margin-right: 10px;
