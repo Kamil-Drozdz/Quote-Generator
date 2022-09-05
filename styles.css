@@ -8,6 +8,10 @@
   color: white;
   text-align: center;
 }
+.author {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
 .twitter {
   display: block;
   margin: auto;
